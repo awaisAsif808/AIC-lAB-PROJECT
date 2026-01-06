@@ -2,12 +2,12 @@
 .services-header {
     padding: 120px 20px 60px;
     text-align: center;
-    background-color: #f9f9f9;
+               background: linear-gradient(135deg, #0f141e 0%, #1c2a3d 50%, #2c3e50 100%);
 }
 
 .services-header h1 {
     font-size: 2.8rem;
-    color: #222222;
+    color: #fdfbfb;
     margin-bottom: 10px;
 }
 

@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 body {
@@ -13,13 +13,15 @@ body {
 
 /* HEADER SECTION */
 .header {
-  background-color: #222222; /* Dark Charcoal */
+  background: linear-gradient(135deg, #0f141e 0%, #1c2a3d 50%, #2c3e50 100%);
   color: #ffffff;
   text-align: center;
   padding: 100px 20px 60px; /* Added top padding to account for fixed Nav */
 }
 
-.header h1 { font-size: 2.5rem; }
+.header h1 {
+  font-size: 32px;
+}
 
 /* COMBINED FORM CONTAINER */
 .container {
@@ -30,7 +32,7 @@ body {
   flex-wrap: wrap;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 /* Left Side: Form */
@@ -40,18 +42,24 @@ body {
   min-width: 300px;
 }
 
-.form-section h2 { margin-bottom: 20px; }
+.form-section h2 {
+  margin-bottom: 20px;
+}
 
-.input-box { margin-bottom: 15px; }
+.input-box {
+  margin-bottom: 15px;
+}
 
 .input-box label {
   display: block;
   margin-bottom: 5px;
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: bold;
 }
 
-.input-box input, .input-box select, .input-box textarea {
+.input-box input,
+.input-box select,
+.input-box textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #cccccc;
@@ -69,7 +77,9 @@ body {
   cursor: pointer;
 }
 
-.btn:hover { background-color: #444444; }
+.btn:hover {
+  background-color: #444444;
+}
 
 /* Right Side: Info */
 .info-section {
@@ -79,13 +89,23 @@ body {
   min-width: 300px;
 }
 
-.info-item { margin-bottom: 25px; }
+.info-item {
+  margin-bottom: 25px;
+}
 
-.info-item h3 { margin-bottom: 5px; font-size: 1.1rem; }
+.info-item h3 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
 
-.info-item p { color: #666666; font-size: 0.95rem; }
+.info-item p {
+  color: #666666;
+  font-size: 0.95rem;
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-  .container { flex-direction: column; }
+  .container {
+    flex-direction: column;
+  }
 }
